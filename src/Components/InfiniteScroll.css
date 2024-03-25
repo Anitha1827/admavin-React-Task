@@ -1,0 +1,13 @@
+.scrollcontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.imagesbox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.images {
+  margin: 10px;
+}

@@ -1,0 +1,33 @@
+.nested-container {
+  position: relative;
+  padding: 10px;
+  border: 1px solid #000000;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 33%;
+}
+.folder {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+.files {
+  padding: 10px;
+  cursor: pointer;
+}
+.header {
+  padding: 40px;
+}
+.home {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: blue;
+  border: blue;
+  padding: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
